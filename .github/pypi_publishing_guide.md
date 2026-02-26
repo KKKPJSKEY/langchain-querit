@@ -122,15 +122,15 @@ steps:
 1. **Push code to GitHub**
    ```bash
    git add .
-   git commit -m "Release v0.0.1: Complete publishing configuration"
+   git commit -m "Release v0.0.2: Complete publishing configuration"
    git push origin main
    ```
 
 2. **Create GitHub Release**
    - Visit the "Releases" tab on the repository page
    - Click "Create a new release"
-   - Tag: `v0.0.1`
-   - Title: `LangChain Querit Tool v0.0.1`
+   - Tag: `v0.0.2`
+   - Title: `LangChain Querit Tool v0.0.2`
    - Description: Copy from `CHANGELOG.md`
    - Click "Publish release"
 
@@ -151,7 +151,7 @@ steps:
 ### **2. Verify PyPI Publication**
 ```bash
 # Test installation
-pip install langchain-querit==0.0.1
+pip install langchain-querit==0.0.2
 
 # Verification
 python -c "from langchain_websearch import __version__; print(f'Version {__version__} installed')"
@@ -159,7 +159,7 @@ python -c "from langchain_websearch import __version__; print(f'Version {__versi
 
 ### **3. View PyPI Page**
 - Visit https://pypi.org/project/langchain-querit/
-- Confirm version 0.0.1 is displayed
+- Confirm version 0.0.2 is displayed
 - Ensure package information is complete
 
 ---
@@ -245,5 +245,5 @@ Just configure the Trusted Publisher once on PyPI, and all subsequent publicatio
 3. Verify publishing success
 
 > Publication Date: 2026-02-26  
-> Version: v0.0.1  
+> Version: v0.0.2  
 > Configuration Status: Trusted Publishing configuration completed ✅

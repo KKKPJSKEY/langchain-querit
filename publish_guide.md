@@ -57,8 +57,8 @@ Create `.github/workflows/publish.yml` file to automate the publishing process
 ### 1. Test New Version Installation
 ```bash
 # Test installation from PyPI
-python3 -m pip uninstall langchain-websearch -y
-python3 -m pip install langchain-websearch
+python3 -m pip uninstall langchain-querit -y
+python3 -m pip install langchain-querit
 ```
 
 ### 2. Verify Functionality
